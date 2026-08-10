@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Taller\\repos\\2025\\db\\db.csproj": {}
+    "C:\\Users\\Alumno\\Desktop\\tp6 - taller\\tl2-tp6-2025-goncho-web\\db.csproj": {}
   },
   "projects": {
-    "D:\\Taller\\repos\\2025\\db\\db.csproj": {
+    "C:\\Users\\Alumno\\Desktop\\tp6 - taller\\tl2-tp6-2025-goncho-web\\db.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Taller\\repos\\2025\\db\\db.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\tp6 - taller\\tl2-tp6-2025-goncho-web\\db.csproj",
         "projectName": "db",
-        "projectPath": "D:\\Taller\\repos\\2025\\db\\db.csproj",
-        "packagesPath": "C:\\Users\\queco\\.nuget\\packages\\",
-        "outputPath": "D:\\Taller\\repos\\2025\\db\\obj\\",
+        "projectPath": "C:\\Users\\Alumno\\Desktop\\tp6 - taller\\tl2-tp6-2025-goncho-web\\db.csproj",
+        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alumno\\Desktop\\tp6 - taller\\tl2-tp6-2025-goncho-web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\queco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,10 @@
             "Microsoft.Data.Sqlite": {
               "target": "Package",
               "version": "[9.0.10, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[2.0.2, )"
             }
           },
           "imports": [
@@ -67,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
