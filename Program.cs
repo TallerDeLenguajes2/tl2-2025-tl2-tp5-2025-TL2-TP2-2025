@@ -5,16 +5,7 @@ string connectionString = "Data Source=base_test.db;";
 using (SqliteConnection connection = new SqliteConnection(connectionString))
 {
     connection.Open();
-    // Crear tabla si no existe
-    // por lo general este tipo de consultas no se implementa en un programa real
-    // la aplicamos para poder crear nuestra base de datos desde cero
-    string createTableQuery = "CREATE TABLE IF NOT EXISTS productos (id INTEGER PRIMARY KEY, nombre TEXT, precio REAL)";
-    using (SqliteCommand createTableCmd = new SqliteCommand(createTableQuery, connection))
-    {
-        createTableCmd.ExecuteNonQuery();
-        Console.WriteLine("Tabla 'productos' creada o ya existe.");
-    }
-    
+        
     // Insertar datos
     string insertQuery = "INSERT INTO productos (nombre, precio) VALUES ('Manzana', 0.50), ('Banana', 0.30)";
             using (SqliteCommand insertCmd = new SqliteCommand(insertQuery, connection))
